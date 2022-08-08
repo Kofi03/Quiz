@@ -5,6 +5,9 @@ const customer = {
   phoneNumber: "0740000000",
   email: "gmail@gmail.co.uk",
 };
+
+// I got confused as I had console log above and below each object containing variables
+
 customer.address = {
   street: "NoahArk",
   city: "London",
@@ -18,6 +21,16 @@ const productInformation = {
   description: "",
   quantity: 20,
 };
-console.log(productInformation);
 
 const total = productInformation.price * 7;
+
+if (total >= 500) {
+  console.log("You get free extra product");
+}
+
+// this is implicit coercion
+if (productInformation.quantity) {
+  console.log("We have stock");
+} else {
+  console.log("We do not have it");
+}
