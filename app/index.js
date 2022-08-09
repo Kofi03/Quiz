@@ -149,6 +149,7 @@ const { name: handle, age: marsyears } = me2;
 console.log(handle, marsyears);
 console.log(me2);
 
+// Array deconstruction and Rest
 const car = ["toyota", "mazda", "vauxhall", "bentley"];
 
 const [toyota, ...otherCar] = car;
