@@ -144,4 +144,19 @@ const me2 = {
 
 const { identifier, age, mileTime } = me2;
 
+const { name: handle, age: marsyears } = me2;
+
+console.log(handle, marsyears);
 console.log(me2);
+
+const car = ["toyota", "mazda", "vauxhall", "bentley"];
+
+const [toyota, ...otherCar] = car;
+
+otherCar[100] = "jaguar";
+
+const car2 = car;
+
+car2.push("honda");
+console.log(car, otherCar);
+console.log(car, car2);
