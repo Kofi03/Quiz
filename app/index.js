@@ -134,10 +134,14 @@ console.log(personName);
 console.log(wrestler);
 console.log(fname.lname);
 
-const me = {
-  name: "CodeFinity",
+const me2 = {
+  identifier: "CodeFinity",
   age: 22,
   mileTime: "3:55",
   maxBench: 500,
   isLying: true,
 };
+
+const { identifier, age, mileTime } = me2;
+
+console.log(me2);
