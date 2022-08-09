@@ -109,3 +109,35 @@ const nums3 = nums.concat(nums2);
 
 console.log(nums2);
 console.log(nums3);
+
+// Object Chaining: undefined
+
+const me = {
+  name: "BuzzLightyear",
+  age: 400,
+};
+
+console.log(me.handles);
+
+const fname = "Mark";
+const lname = "Galloway";
+const status = "retired";
+
+const wrestler = {
+  fname,
+  lname,
+  status,
+};
+
+const personName = wrestler.status?.fname;
+console.log(personName);
+console.log(wrestler);
+console.log(fname.lname);
+
+const me = {
+  name: "CodeFinity",
+  age: 22,
+  mileTime: "3:55",
+  maxBench: 500,
+  isLying: true,
+};
