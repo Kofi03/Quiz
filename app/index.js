@@ -90,3 +90,22 @@ switch (choice) {
   default:
     console.log("We don't have that food.");
 }
+
+// Declaring arrays
+const nums = [10, 6, 8, 4, 15, 21];
+const colours = ["green", "orange", "purple"];
+
+const col = colours[0];
+console.log(col);
+
+const num = nums[0];
+const num2 = nums[4];
+
+// so mine my 0 index is the number 10 and when nums is 4 (index), this is equivalent to 15
+console.log(num);
+
+const nums2 = [4, 11, 16];
+const nums3 = nums.concat(nums2);
+
+console.log(nums2);
+console.log(nums3);
